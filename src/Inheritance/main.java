@@ -5,8 +5,11 @@ public class main {
        Animal animal = new Animal("Fish", "Big", 400);
        doAnimalStuff(animal, "Fast");
 
-       Dog d  = new Dog("Bulldog", "medium", 200);
+       Dog d  = new Dog("Bulldog", "medium", 200, "round", "pony");
        doAnimalStuff(d, "Slow");
+
+       //Fish p = new Fish("Piranha", "small", 40, 1, 2);
+       //doAnimalStuff(p, "Fast");
     }
 
     public static void doAnimalStuff(Animal animal, String speed) {
