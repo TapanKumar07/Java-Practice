@@ -30,8 +30,12 @@ public class main {
         animals.add(new Fish("goldfish", "small", 10));
         animals.add(new Fish("Piranahh", "Meduim", 20));
 
+        animals.add(new Horse("Ghoda", "Large", 1000));
+
         for(Animal animal: animals) {
             doAnimalStuff(animal);
+            if(animal instanceof Horse hii)
+                hii.shedhair();
         }
 
     }

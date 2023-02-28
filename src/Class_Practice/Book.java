@@ -24,3 +24,17 @@ public class Book {
     }
 
 }
+
+class bookone extends Book{
+    void greetings(int f) {
+        super.greetings();
+        System.out.println(" Bookone running " + f);
+    }
+
+    @Override
+    void greetings() {
+        System.out.println("Child class method");
+    }
+
+
+}

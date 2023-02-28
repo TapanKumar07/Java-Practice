@@ -22,5 +22,9 @@ public class Main {
 
         String p = "abcda";
         System.out.println(p.replace("a", "xytz"));
+
+        Book b = new bookone();
+        if(b instanceof bookone baljeet)
+            baljeet.greetings(5);
     }
 }
