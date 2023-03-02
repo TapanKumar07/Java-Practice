@@ -20,6 +20,9 @@ public class main {
          a.setName("== Another Thread ==");
          a.start();
 
+
+
+
          Thread runa = new Thread(new myRunnable() {
              @Override
              public void run() {
@@ -32,6 +35,8 @@ public class main {
                  }
              }
          });
+
+         a.interrupt();
          //most developers use runnable interface method bcoz many APIs in java wants runnable
         // interface passed  through them
 
@@ -49,5 +54,7 @@ public class main {
          so in this case rather than waking up thread to see if there is any data we can actually
          join these two thread so that this thread will be executed after first one has terminated
           */
+
+
     }
 }
