@@ -6,7 +6,7 @@ public class anotherThread extends Thread{
         System.out.println("Running Thread " + Thread.currentThread().getName());
         try{
             System.out.println("Sone jaa ra");
-            Thread.sleep(3500);
+            Thread.sleep(1500);
             System.out.println("sone do yaaaaar");
 
         } catch(InterruptedException e) {

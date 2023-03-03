@@ -36,7 +36,7 @@ public class main {
              }
          });
 
-         a.interrupt();
+
          //most developers use runnable interface method bcoz many APIs in java wants runnable
         // interface passed  through them
 
